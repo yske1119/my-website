@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Green Event 2025</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"> 
+</head>
+<body>
+  <!-- Language Selector -->  
+  <div class="language-selector">
+    <button class="active" data-lang="en">EN</button>
+    <button data-lang="jp">JP</button>
+  </div>
+
+  <!-- Header & Navigation 一旦保留 -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="./images/gallery.jpg" alt="Event Logo">
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#about" class="en active">About</a><a href="#about" class="jp">概要</a></li>
+          <li><a href="#gallery" class="en">Gallery</a><a href="#gallery" class="jp">ギャラリー</a></li>
+          <li><a href="#locations" class="en">Locations</a><a href="#locations" class="jp">開催場所</a></li>
+          <li><a href="#about-us" class="en">About Us</a><a href="#about-us" class="jp">私たちについて</a></li>
+          <li><a href="#news" class="en">News</a><a href="#news" class="jp">ニュース</a></li>
+          <li><a href="#contact" class="en">Contact</a><a href="#contact" class="jp">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Visual / Hero Section -->
+  <section class="hero">
+    <div class="slider">
+      <div class="slide active">
+        <img src="https://www.uminokyoto.jp/img_data/PH355_1.jpg" alt="Event Image 1">
+        <div class="slide-content">
+          <h1 class="en">Global Green Event 2025</h1>
+          <h1 class="jp" style="font-family: noto-serif-jp;">京都を回るイベント</h1>
+          <p class="en">Revolutionizing Sustainable Future</p>
+          <p class="jp">観光客分散政策</p>
+          <!-- <a href="#about" class="btn en">Learn More</a>
+          <a href="#about" class="btn jp">詳細を見る</a> -->
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://www.uminokyoto.jp/img_data/PH755_1.jpg" alt="Event Image 2">
+        <div class="slide-content">
+          <h1 class="en">Join The Movement</h1>
+          <h1 class="jp">イベントに参加しよう</h1>
+          <p class="en">Be Part of the Change</p>
+          <p class="jp">誰でも参加可能</p>
+          <!-- <a href="#locations" class="btn en">Find Events</a>
+          <a href="#locations" class="btn jp">イベントを探す</a> -->
+        </div>
+      </div>
+      <div class="slide">
+        <img src="https://www.uminokyoto.jp/img_data/PH787_1.jpg" alt="Event Image 3">
+        <div class="slide-content">
+          <h1 class="en">Innovation & Sustainability</h1>
+          <h1 class="jp">ガチャを回そう</h1>
+          <p class="en">Creating Tomorrow Together</p>
+          <p class="jp">特典をもらえるかも</p>
+          <!-- <a href="#gallery" class="btn en">Explore</a>
+          <a href="#gallery" class="btn jp">探索する</a> -->
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
+      <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <div class="slider-dots">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+    </div>
+    <div class="scroll-indicator">
+      <div class="en">Scroll Down</div>
+      <div class="jp">スクロールダウン</div>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="en">About The Event</h2>
+        <h2 class="jp">イベントについて</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <h3 class="en">Our Vision</h3>
+          <h3 class="jp">百人一首をテーマに</h3>
+          <p class="en">Global Green Event was founded in 2022 with a mission to accelerate the transition to sustainable living through innovation, collaboration, and education. This annual gathering brings together thought leaders, entrepreneurs, designers, and citizens committed to creating a more sustainable world.</p>
+          <p class="jp">百人一首をテーマにしたイベントです。百人一首は偉人が詠んだうたをカルタにしたものです。うんたらかんたら。</p>
+          
+          <h3 class="en">How to Participate</h3>
+          <h3 class="jp">参加方法</h3>
+          <p class="en">Registration is open to everyone passionate about sustainability. Join us as an attendee, speaker, exhibitor, or volunteer. The event features workshops, panel discussions, exhibitions, and networking opportunities across multiple cities worldwide.</p>
+          <p class="jp">難しい登録などはありません。ガチャを回して、出た場所に行くだけ。なんかもらえると思います。</p>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <img src="https://as1.ftcdn.net/v2/jpg/01/33/03/48/1000_F_133034853_86p3HQpdq3tPsCMBIsNLfG9z4s4qsxPr.jpg" alt="Event Backstory">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="en">Gallery</h2>
+        <h2 class="jp">ギャラリー</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 1">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Sustainable Products</h4>
+            <h4 class="jp">かるた１</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 2">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Innovative Solutions</h4>
+            <h4 class="jp">かるた２</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 3">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Green Technology</h4>
+            <h4 class="jp">かるた３</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 4">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Community Initiatives</h4>
+            <h4 class="jp">かるた４</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 5">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Renewable Energy</h4>
+            <h4 class="jp">かるた５</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 6">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Circular Economy</h4>
+            <h4 class="jp">かるた６</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 6">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Circular Economy</h4>
+            <h4 class="jp">かるた７</h4>
+          </div>
+        </div>
+        <div class="gallery-item" data-aos="zoom-in">
+          <img src="./images/gallery.jpg" alt="Gallery Item 6">
+          <div class="floating-stats">
+            <div class="stat">
+              <span class="spotname">場所の名前</span>
+            </div>
+          </div>
+          <div class="gallery-caption">
+            <h4 class="en">Circular Economy</h4>
+            <h4 class="jp">かるた８</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section id="locations" class="locations">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="en">Event Locations</h2>
+        <h2 class="jp">開催場所</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="locations-carousel" data-aos="fade-up">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Tokyo">
+              </div>
+              <div class="location-info">
+                <h3>Spot1</h3>
+                <p class="date en">June 5-7, 2025</p>
+                <p class="date jp">2025年6月5日～7日</p>
+                <p class="venue">Tokyo International Forum</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="New York">
+              </div>
+              <div class="location-info">
+                <h3>Spot2</h3>
+                <p class="date en">June 12-14, 2025</p>
+                <p class="date jp">2025年6月12日～14日</p>
+                <p class="venue">Javits Center</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="London">
+              </div>
+              <div class="location-info">
+                <h3>Spot3</h3>
+                <p class="date en">June 19-21, 2025</p>
+                <p class="date jp">2025年6月19日～21日</p>
+                <p class="venue">ExCeL London</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Singapore">
+              </div>
+              <div class="location-info">
+                <h3>Spot4</h3>
+                <p class="date en">June 26-28, 2025</p>
+                <p class="date jp">2025年6月26日～28日</p>
+                <p class="venue">Marina Bay Sands</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Sydney">
+              </div>
+              <div class="location-info">
+                <h3>Spot5</h3>
+                <p class="date en">July 3-5, 2025</p>
+                <p class="date jp">2025年7月3日～5日</p>
+                <p class="venue">ICC Sydney</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Sydney">
+              </div>
+              <div class="location-info">
+                <h3>Spot6</h3>
+                <p class="date en">July 3-5, 2025</p>
+                <p class="date jp">2025年7月3日～5日</p>
+                <p class="venue">ICC Sydney</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Sydney">
+              </div>
+              <div class="location-info">
+                <h3>Spot7</h3>
+                <p class="date en">July 3-5, 2025</p>
+                <p class="date jp">2025年7月3日～5日</p>
+                <p class="venue">ICC Sydney</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+            <div class="location-card">
+              <div class="location-image">
+                <img src="./images/gallery.jpg" alt="Sydney">
+              </div>
+              <div class="location-info">
+                <h3>Spot8</h3>
+                <p class="date en">July 3-5, 2025</p>
+                <p class="date jp">2025年7月3日～5日</p>
+                <p class="venue">ICC Sydney</p>
+                <a href="#" class="btn-small en">Details</a>
+                <a href="#" class="btn-small jp">詳細</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="about-us">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="en">About Us</h2>
+        <h2 class="jp">私たちについて</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-us-content">
+        <div class="team-image" data-aos="fade-right">
+          <img src="https://img.freepik.com/free-photo/young-friends-park_53876-46877.jpg?semt=ais_items_boosted&w=740" alt="Our Team">
+        </div>
+        <div class="team-info" data-aos="fade-left">
+          <h3 class="en">Our Mission</h3>
+          <h3 class="jp">私たちのミッション</h3>
+          <p class="en">We are a global collective of environmentalists, innovators, and changemakers dedicated to accelerating the transition to a sustainable future. Through our annual Global Green Event, we bring together diverse perspectives and expertise to tackle the world's most pressing environmental challenges.</p>
+          <p class="jp">私たちは、京都の観光業を流動化させるために活動しています。</p>
+          
+          <h3 class="en">Our Values</h3>
+          <h3 class="jp">私たちの価値観</h3>
+          <ul>
+            <li class="en">Innovation that respects planetary boundaries</li>
+            <li class="jp">京都を盛り上げる</li>
+            <li class="en">Inclusivity and global collaboration</li>
+            <li class="jp">学生主導</li>
+            <li class="en">Actionable solutions for real-world impact</li>
+            <li class="jp">非営利</li>
+            <li class="en">Knowledge sharing and open-source approaches</li>
+            <li class="jp">とかなんとか。</li>
+          </ul>
+          <a href="#contact" class="btn en">Join Our Team</a>
+          <a href="#contact" class="btn jp">チームに参加する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="news">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="en">Latest News</h2>
+        <h2 class="jp">最新ニュース</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="news-grid">
+        <div class="news-item">
+          <div class="news-image">
+            <img src="./images/gallery.jpg" alt="News 1">
+            <div class="news-date">
+              <span class="day">15</span>
+              <span class="month">APR</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <h3 class="en">2025 Program Announced</h3>
+            <h3 class="jp">2025年プログラム発表</h3>
+            <p class="en">We're excited to reveal our most ambitious program yet, featuring over 100 speakers across five global locations.</p>
+            <p class="jp">5つのグローバル会場で100人以上のスピーカーを迎える、これまでで最も野心的なプログラムを発表できることを嬉しく思います。</p>
+            <a href="#" class="read-more en">Read More</a>
+            <a href="#" class="read-more jp">続きを読む</a>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-image">
+            <img src="./images/gallery.jpg" alt="News 2">
+            <div class="news-date">
+              <span class="day">02</span>
+              <span class="month">APR</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <h3 class="en">New Partnership Announced</h3>
+            <h3 class="jp">新しいパートナーシップの発表</h3>
+            <p class="en">We're thrilled to welcome TechGreen as our global technology partner for the 2025 Global Green Event series.</p>
+            <p class="jp">2025年グローバル・グリーン・イベントシリーズのグローバルテクノロジーパートナーとしてTechGreenを迎えることができて嬉しく思います。</p>
+            <a href="#" class="read-more en">Read More</a>
+            <a href="#" class="read-more jp">続きを読む</a>
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-image">
+            <img src="./images/gallery.jpg" alt="News 3">
+            <div class="news-date">
+              <span class="day">25</span>
+              <span class="month">MAR</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <h3 class="en">Early Bird Registration Open</h3>
+            <h3 class="jp">早期登録受付開始</h3>
+            <p class="en">Secure your spot at the world's premier sustainable innovation event with our limited early bird tickets.</p>
+            <p class="jp">限定早期チケットで、世界有数の持続可能なイノベーションイベントへの参加を確保しましょう。</p>
+            <a href="#" class="read-more en">Read More</a>
+            <a href="#" class="read-more jp">続きを読む</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="en">Contact Us</h2>
+        <h2 class="jp">お問い合わせ</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4 class="en">Headquarters</h4>
+              <h4 class="jp">本部</h4>
+              <p>Tokyo, Japan</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4 class="en">Email</h4>
+              <h4 class="jp">メール</h4>
+              <p>info@globalgreenevents.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4 class="en">Phone</h4>
+              <h4 class="jp">電話</h4>
+              <p>+81 3 1234 5678</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn en">Send Message</button>
+            <button type="submit" class="btn jp">メッセージを送信</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/gallery.jpg" alt="Event Logo">
+          <p class="en">Global Green Event 2025</p>
+          <p class="jp">グローバル・グリーン・イベント 2025</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4 class="en">Quick Links</h4>
+            <h4 class="jp">クイックリンク</h4>
+            <ul>
+              <li><a href="#about" class="en">About</a><a href="#about" class="jp">概要</a></li>
+              <li><a href="#gallery" class="en">Gallery</a><a href="#gallery" class="jp">ギャラリー</a></li>
+              <li><a href="#locations" class="en">Locations</a><a href="#locations" class="jp">開催場所</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="en">Resources</h4>
+            <h4 class="jp">リソース</h4>
+            <ul>
+              <li><a href="#" class="en">FAQ</a><a href="#" class="jp">よくある質問</a></li>
+              <li><a href="#" class="en">Privacy Policy</a><a href="#" class="jp">プライバシーポリシー</a></li>
+              <li><a href="#" class="en">Terms of Use</a><a href="#" class="jp">利用規約</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="en">Newsletter</h4>
+            <h4 class="jp">ニュースレター</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email">
+              <button type="submit" class="en">Subscribe</button>
+              <button type="submit" class="jp">購読</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="en">&copy; 2025 Global Green Event. All Rights Reserved.</p>
+        <p class="jp">&copy; 2025 グローバル・グリーン・イベント. 無断複写・転載を禁じます。</p>
+      </div>
+    </div>
+  </footer>
+  <div id="test"></div>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
